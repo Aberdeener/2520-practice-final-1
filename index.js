@@ -29,7 +29,7 @@ app.post("/create", (req, res) => {
     id: database.users.length + 1,
     fullName: req.body.fullName,
     aboutMe: req.body.aboutMe,
-    knownTechnologies: req.body.knownTechnologies ?? null,
+    knownTechnologies: req.body.knownTechnologies ?? [],
     githubUrl: req.body.githubUrl,
     twitterUrl: req.body.twitterUrl,
     favoriteBooks: req.body.favoriteBooks?.split(","),

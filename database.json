@@ -97,6 +97,34 @@
       "favoriteArtists": [
         ""
       ]
+    },
+    {
+      "id": 6,
+      "fullName": "",
+      "aboutMe": "",
+      "knownTechnologies": null,
+      "githubUrl": "",
+      "twitterUrl": "",
+      "favoriteBooks": [
+        ""
+      ],
+      "favoriteArtists": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "fullName": "",
+      "aboutMe": "",
+      "knownTechnologies": [],
+      "githubUrl": "",
+      "twitterUrl": "",
+      "favoriteBooks": [
+        ""
+      ],
+      "favoriteArtists": [
+        ""
+      ]
     }
   ]
 }
