@@ -4,7 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Create your DevCard</title>
   </head>
-  <body></body>
+  <body class="container mx-auto">
+    <h1 class="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-green-600">Create your DevCard</h1>
+    <form action="" method="post">
+      <div class="pb-8">
+        <label for="fullName">Full Name</label>
+        <input type="text" name="fullName" class="border-4"><br>
+      </div>
+
+      <div class="pb-8">
+        <label for="aboutMe">About Me</label>
+        <textarea name="aboutMe" cols="30" rows="10" class="border-4"></textarea><br>
+      </div>
+
+      <div class="pb-8">
+        <label for="knownTechnologies" class="text-xl font-semibold">Technologies You Know</label><br>
+        <input type="checkbox" name="knownTechnologies" value="HTML">HTML<br>
+        <input type="checkbox" name="knownTechnologies" value="CSS">CSS<br>
+        <input type="checkbox" name="knownTechnologies" value="JS">JavaScript<br>
+        <input type="checkbox" name="knownTechnologies" value="Git">Git<br>
+        <input type="checkbox" name="knownTechnologies" value="React">React<br>
+        <input type="checkbox" name="knownTechnologies" value="Node.JS">Node.JS<br>
+      </div>
+
+      <div class="pb-8">
+        <label for="githubUrl">GitHub URL</label>
+        <input type="text" name="githubUrl" class="border-4"><br>
+      </div>
+
+      <div class="pb-8">
+        <label for="twitterUrl">Twitter URL</label>
+        <input type="text" name="twitterUrl" class="border-4"><br>
+      </div>
+
+      <div class="pb-8">
+        <label for="favoriteBooks">Favorite Books (comma seperated)</label>
+        <input type="text" name="favoriteBooks" class="border-4"><br>
+      </div>
+
+      <div class="pb-8">
+        <label for="favoriteArtists">Favorite Artists (comma seperated)</label>
+        <input type="text" name="favoriteArtists" class="border-4"><br>
+      </div>
+
+      <input type="submit" value="Create" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+    </form>
+  </body>
 </html>

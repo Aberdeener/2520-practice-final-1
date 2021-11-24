@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "54az3",
+      "id": 1,
       "fullName": "Armaan Dhanji",
       "aboutMe": "Hi, my name is Armaan Dhanji but I'm better known by my nickname @armaand, and I'm a teacher in the School of Computing at BCIT.",
       "knownTechnologies": [
@@ -12,8 +12,8 @@
         "React",
         "Node.js"
       ],
-      "githubUrl": "github.com/adhanji8",
-      "twitterUrl": "twitter.com/bcit",
+      "githubUrl": "https://github.com/adhanji8",
+      "twitterUrl": "https://twitter.com/bcit",
       "favoriteBooks": [
         "The Lord of the Rings - J. R. R. Tolkien",
         "Foundation Series - Isaac Asimov",
@@ -23,6 +23,80 @@
       ],
       "favoriteArtists": []
     },
-    {}
+    {
+      "id": 2,
+      "fullName": "ajnijndaw",
+      "aboutMe": "awdawdwaa",
+      "knownTechnologies": [
+        "CSS",
+        "Git"
+      ],
+      "githubUrl": "dadwaaw",
+      "twitterUrl": "awdadwadaw",
+      "favoriteBooks": [
+        "awa",
+        "aaeee",
+        "333"
+      ],
+      "favoriteArtists": [
+        "t",
+        "t",
+        "t",
+        "t"
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "aaaa",
+      "aboutMe": "awdawdw",
+      "knownTechnologies": [
+        "CSS",
+        "JS",
+        "Git",
+        "React",
+        "Node.JS"
+      ],
+      "githubUrl": "https://github.com",
+      "twitterUrl": "",
+      "favoriteBooks": [
+        "awdwd11",
+        "1",
+        "1",
+        "1",
+        "1",
+        "11"
+      ],
+      "favoriteArtists": [
+        "wdwada",
+        "aaa"
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "",
+      "aboutMe": "",
+      "githubUrl": "",
+      "twitterUrl": "",
+      "favoriteBooks": [
+        ""
+      ],
+      "favoriteArtists": [
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "",
+      "aboutMe": "",
+      "knownTechnologies": [],
+      "githubUrl": "",
+      "twitterUrl": "",
+      "favoriteBooks": [
+        ""
+      ],
+      "favoriteArtists": [
+        ""
+      ]
+    }
   ]
 }
