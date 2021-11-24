@@ -11,17 +11,13 @@ app.use(express.json());
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("homepage");
+  res.render("createcard");
 });
 
 app.get("/people/:id", (req, res) => {
   res.render("people", {
     ...getUserFromDatabase(req.params.id),
   });
-});
-
-app.get("/create", (req, res) => {
-  res.render("createcard");
 });
 
 app.post("/create", (req, res) => {
