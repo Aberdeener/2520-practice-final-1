@@ -32,8 +32,8 @@ app.post("/create", (req, res) => {
     knownTechnologies: req.body.knownTechnologies ?? [],
     githubUrl: req.body.githubUrl,
     twitterUrl: req.body.twitterUrl,
-    favoriteBooks: req.body.favoriteBooks?.split(","),
-    favoriteArtists: req.body.favoriteArtists?.split(","),
+    favoriteBooks: req.body.favoriteBooks.length > 0 ? req.body.favoriteBooks.split(',') : [],
+    favoriteArtists: req.body.favoriteArtists.length > 0 ? req.body.favoriteArtists.split(',') : [],
   }
 
   database.users.push(newUser);
